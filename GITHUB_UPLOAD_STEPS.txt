@@ -1,0 +1,42 @@
+Costa Collection Roadmap - GitHub Upload Instructions
+=====================================================
+
+File Location: /Users/juanmanueldiazolvera/Documents/Claude/Projects/Costa Collection/roadmap.html
+File Size: 16,909 bytes (self-contained, no external dependencies)
+Repository: https://github.com/juandiaz-mx/costa-collection-roadmap
+
+Option 1: Upload via GitHub Web Interface (Quickest)
+----------------------------------------------------
+1. Go to: https://github.com/juandiaz-mx/costa-collection-roadmap
+2. Click "Add file" dropdown → "Upload files"
+3. Drag roadmap.html from your Costa Collection folder into the upload area
+4. Write commit message: "Initial commit: Add Costa Collection roadmap"
+5. Click "Commit changes"
+
+Vercel will automatically deploy within 1-2 minutes.
+
+Option 2: Upload via GitHub Desktop (if installed)
+--------------------------------------------------
+1. Open GitHub Desktop
+2. File → Clone Repository → paste: https://github.com/juandiaz-mx/costa-collection-roadmap
+3. Copy roadmap.html from Costa Collection folder into the cloned repository folder
+4. In GitHub Desktop, you'll see the file change
+5. Write summary: "Add roadmap"
+6. Click "Commit to main"
+7. Click "Push origin"
+
+Option 3: Command Line (Terminal)
+---------------------------------
+cd ~/Documents/Claude/Projects/Costa\ Collection
+git init
+git remote add origin https://github.com/juandiaz-mx/costa-collection-roadmap.git
+git add roadmap.html
+git commit -m "Initial commit: Add Costa Collection roadmap"
+git branch -M main
+git push -u origin main
+
+After Upload
+============
+Vercel will automatically detect the new file and deploy.
+Your Vercel URL will be: https://costa-collection-roadmap.vercel.app
+Deployment typically completes within 1-2 minutes.
